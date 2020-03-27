@@ -7,7 +7,7 @@
   "main": "build/bundles/ngApolloLinkHeaders.umd.js",
   "module": "build/fesm5/ngApolloLinkHeaders.js",
   "typings": "build/ngApolloLinkHeaders.d.ts",
-  "version": "1.4.0",
+  "version": "1.5.0-alpha.0",
   "repository": "https://github.com/apollographql/apollo-angular/tree/master/packages/apollo-angular-link-headers",
   "keywords": [
     "apollo",
@@ -24,7 +24,7 @@
     "tslib": "^1.11.0"
   },
   "peerDependencies": {
-    "@angular/common": "^6.0.0 || ^7.0.0 || ^8.0.0",
+    "@angular/common": "^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",
     "apollo-link": "^1.0.0"
   },
   "devDependencies": {
