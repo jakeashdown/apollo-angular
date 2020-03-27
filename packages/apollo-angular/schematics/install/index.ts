@@ -39,7 +39,7 @@ export const dependenciesMap: Record<string, string> = {
   'apollo-client': '^2.6.0',
   'apollo-cache-inmemory': '^1.6.0',
   'graphql-tag': '^2.10.0',
-  graphql: '^14.5.0',
+  graphql: '^14.6.0',
 };
 
 function assertTypescriptVersion() {

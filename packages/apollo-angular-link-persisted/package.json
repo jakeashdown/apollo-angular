@@ -25,17 +25,17 @@
   },
   "dependencies": {
     "apollo-link-context": "^1.0.7",
-    "apollo-link-persisted-queries": "~0.2.0"
+    "apollo-link-persisted-queries": "~0.2.0",
+    "tslib": "^1.11.0"
   },
   "devDependencies": {
-    "@types/graphql": "14.5.0",
-    "@types/jest": "24.9.1",
+    "@types/jest": "25.1.4",
     "apollo-link": "1.2.13",
-    "graphql": "14.5.8",
-    "graphql-tag": "2.10.1",
-    "jest": "24.9.0",
-    "ng-packagr": "5.7.1",
-    "ts-jest": "25.0.0",
-    "typescript": "3.5.3"
+    "graphql": "14.6.0",
+    "graphql-tag": "2.10.3",
+    "jest": "25.2.3",
+    "ng-packagr": "9.1.0",
+    "ts-jest": "25.2.1",
+    "typescript": "3.8.3"
   }
 }
