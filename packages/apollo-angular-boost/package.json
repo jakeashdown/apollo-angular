@@ -17,7 +17,8 @@
     "build": "ng-packagr -p ng-package.js",
     "test": "yarn test-only",
     "test-only": "jest --config jest.config.js",
-    "deploy": "yarn build && npm publish build"
+    "deploy": "yarn build && npm publish build",
+    "deploy:next": "yarn build && npm publish build --tag next"
   },
   "peerDependencies": {
     "@angular/common": "^6.1.0 || ^7.0.0 || ^8.0.0 || ^9.0.0",

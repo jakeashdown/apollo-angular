@@ -18,7 +18,8 @@
     "build": "ng-packagr -p ng-package.js",
     "test": "yarn test-only",
     "test-only": "jest --config jest.config.js",
-    "deploy": "yarn build && npm publish build"
+    "deploy": "yarn build && npm publish build",
+    "deploy:next": "yarn build && npm publish build --tag next"
   },
   "dependencies": {
     "tslib": "^1.11.0"
